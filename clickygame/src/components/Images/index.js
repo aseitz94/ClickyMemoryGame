@@ -1,15 +1,18 @@
 import React from "react";
+import starTrek from "../StarTrek"
+
 import "./style.css";
 
-function ImageCard(props) {
+function Image(props) {
+  console.log(starTrek)
   return (
     <div className="card">
       <div className="img-container">
         <img alt={props.name} src={props.image} />
       </div>
-      <span OnClick></span>
+      <span></span>
     </div>
   );
 }
 
-export default ImageCard;
+export default Image;
