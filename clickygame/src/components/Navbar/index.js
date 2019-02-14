@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-expressions */
 import React from "react";
+import Score from "../Score"
 
 function Navbar() {
     <nav className="navbar navbar-light bg-light">

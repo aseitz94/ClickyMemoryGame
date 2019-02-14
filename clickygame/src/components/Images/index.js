@@ -3,7 +3,7 @@ import starTrek from "../StarTrek"
 
 import "./style.css";
 
-function Image(props) {
+function Images(props) {
   console.log(starTrek)
   return (
     <div className="card">
@@ -15,4 +15,4 @@ function Image(props) {
   );
 }
 
-export default Image;
+export default Images;
