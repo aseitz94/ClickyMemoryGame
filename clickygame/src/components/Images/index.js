@@ -1,6 +1,7 @@
 import React from "react";
 import starTrek from "../StarTrek"
 
+
 import "./style.css";
 
 function Images(props) {
@@ -8,9 +9,10 @@ function Images(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+          <img onClick={()=>{props.handleCardShuffle(starTrek)}} alt={props.name} src={props.image} />
+        
+        
       </div>
-      <span></span>
     </div>
   );
 }

@@ -5,7 +5,7 @@ const starTrek = [
       id: 1,
       name: "Captain Jean-Luc Picard",
       image: "https://vignette.wikia.nocookie.net/memoryalpha/images/f/fc/Jean-Luc_Picard%2C_2364.jpg/revision/latest?cb=20180906020126&path-prefix=en" ,
-      clicked: false
+      clicked: true
     },
     {
       id: 2,

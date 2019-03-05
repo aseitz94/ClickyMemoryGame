@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-expressions */
 import React from "react";
-import Score from "../Score"
+//import Score from "../Score"
 
 function Navbar() {
+    return(
     <nav className="navbar navbar-light bg-light">
         <ul>
             <li>
@@ -12,10 +13,11 @@ function Navbar() {
 
             </li>
             <li className="scoreText">
-
+                    
             </li>
     </ul>       
-</nav>
+        </nav>
+    )
 }
 
 export default Navbar;
